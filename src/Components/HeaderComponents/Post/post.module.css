@@ -1,0 +1,48 @@
+.about {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+}
+.input{
+    width: 200px;
+    height: 35px;
+    outline: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+.title , .pages {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.title li , .pages div {
+    width: 400px;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+.title li{
+    border: 1px solid gray;
+}
+.title li:hover {
+    background-color: #ffffff;
+    color: #1f1fb7;
+    font-size: 20px;
+}
+.pages{
+    flex-direction: row;
+    margin-bottom: 200px;
+}
+.active{
+    color: red;
+}

@@ -1,0 +1,24 @@
+.header{
+    width: 100%;
+    height: 55px;
+    background: rgb(7 26 47);
+    border-bottom: 1px solid #061d5b;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    width: 30%;
+    font-size: 14px;
+    color: floralwhite;
+}
+.ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #c5d1f1;
+    margin: 5px;
+}
